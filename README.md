@@ -5,11 +5,11 @@ ___
 # 功能说明
 
 1. 鼠标左键点击表头进行排序,可以正/倒序排序。
->![](\img\01.gif)
+>![](https://raw.githubusercontent.com/RaMui/mouseClickForTable/master/img/01.gif)
 2. 鼠标右键点击表头进行筛选,可以多选。
->![](\img\02.gif)
+>![](https://raw.githubusercontent.com/RaMui/mouseClickForTable/master/img/02.gif)
 3. 搜索框可以查找需要筛选的数据。
->![](\img\03.gif)
+>![](https://raw.githubusercontent.com/RaMui/mouseClickForTable/master/img/03.gif)
 4. 使用该插件你的table需要按以下格式来写:
 ```
 <table id="tableId">
