@@ -1,0 +1,64 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ramui.github.io/ph/mouseClickForTable.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://ramui.github.io/ph/mouseClickForTable.css">
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="tableId">
+        <thead>
+            <tr onselectstart="return false">
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>职业</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>张三</td>
+                <td>男</td>
+                <td>25</td>
+                <td>老师</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>李四</td>
+                <td>男</td>
+                <td>30</td>
+                <td>医生</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>王五</td>
+                <td>女</td>
+                <td>22</td>
+                <td>护士</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
