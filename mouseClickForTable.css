@@ -1,0 +1,10 @@
+.filtrate-box{width: 204px; height:366px;background: #FFFFFF;display:none;position: absolute;top: 50px;left:0;z-index: 9999;}
+.filtrate{width: 173px; height:300px; margin-top:5px; overflow: auto; border:1px solid #ccc;}
+.filtrate ul {padding:0px; margin:0;}
+.filtrate ul li{white-space:nowrap; list-style: none; }
+.filtrate ul li input{ display:inline; }
+.filtrate ul li span{display:inline;  margin-left: 5px;  }
+.searchBtn{float:right; margin:10px 27px 0 0; }
+input.btn, .new_btn{font-weight:bold; background:#92d050; width:45px; height:24px; line-height:27px; text-align:center; color:#000; border:0px; cursor:pointer; font-size:14px; border-radius:5px; margin:0px 3px;}
+input.btn:hover, input.btn.hover{background:#50a050; color:#fff;}
+input.btn.after{background:#8a8a8a; color:#fff;}
